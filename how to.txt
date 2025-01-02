@@ -1,0 +1,18 @@
+    sam init
+    sam build
+    sam deploy --guided
+
+Interact with your function in the AWS Cloud
+    sam remote invoke HelloWorldFunction --stack-name sam-app
+
+Modify and sync your application to the AWS Cloud real-time
+    sam sync --watch
+
+(Optional) Test your application locally
+    sudo sam local invoke
+
+(Optional) To host your API locally
+    sudo sam local start-api
+
+Delete your application from the AWS Cloud
+    sam delete
